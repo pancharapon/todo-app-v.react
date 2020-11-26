@@ -1,0 +1,13 @@
+.Items {
+  flex: 1 1 0%;
+  overflow-y: auto;
+}
+
+.Loading {
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+}

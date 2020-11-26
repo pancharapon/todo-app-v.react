@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(0,0,0, 0.4);
+}
+
+.setting {
+  transition: all 0.2s ease-in-out;
+}
+
+.setting:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.setting:active {
+  transform: translateY(4px);
+}
+
+@media only screen and (min-width: 601px) {
+  .item {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .item {
+    font-size: 20px;
+  }
+}

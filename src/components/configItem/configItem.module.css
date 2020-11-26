@@ -1,0 +1,56 @@
+.Text {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.Confirm {
+  margin-left: 20px;
+}
+
+.Textarea {
+  box-sizing: border-box;
+  width: 90%;
+}
+
+textarea {
+  font-family: Montserrat;
+  padding: 10px;
+  margin-left: 10px;
+  height: 60px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+@media only screen and (min-width: 601px) {
+  label {
+    font-size: 18px;
+  }
+  textarea {
+    font-size: 16px;
+    height: 90px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  label {
+    font-size: 20px;
+  }
+  textarea {
+    font-size: 18px;
+    height: 120px;
+  }
+}
+
+/* @media only screen and (min-width: 1200px) {
+  
+} */

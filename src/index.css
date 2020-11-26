@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/Montserrat/Montserrat-Medium.ttf);
+  font-weight: normal;
+  font-style: normal;
+  font-display: fallback;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(./assets/Montserrat/Montserrat-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+  font-display: fallback;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Montserrat;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,41 @@
+.Button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.Button:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.Success {
+  color: #5C9210;
+}
+
+.Danger {
+  color: #944317;
+}
+
+.Delete {
+  color: #ff0000;
+  float: right;
+}
+
+@media only screen and (min-width: 601px) {
+  .Button {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .Button {
+    font-size: 22px;
+  }
+}
